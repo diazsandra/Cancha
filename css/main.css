@@ -4,7 +4,7 @@ div {
 	background-color: green;
 	padding: auto;
 	margin: 40px;
-	position: absolute;
+	position: relative;
 }
 
 div>div {
@@ -36,25 +36,38 @@ div>div {
 }
 
 .circulo {
-	width: 100px;
-    height: 100px;
+	width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 1px white solid;
     background: green;
     position: absolute;
-    margin: 120px 380px;
+    margin: 85px 380px;
 }
 
 .b1 {
+	position: absolute;
 	margin: 100px 150px;
 }
 
 .b2 {
+	position: absolute;
 	margin-top: 40px;
-	margin-left: 550px;
+	margin-left: 500px;
 }
 
 .b3{
-	margin-top: 20px;
-	margin-left: 600px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 700px;
 }
+
+.v {
+	position: absolute;
+	vertical-align: 90;
+	height: 350px;
+	left: 450px;
+	color: white;
+	top: -8px;
+}
+
